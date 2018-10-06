@@ -5,16 +5,16 @@ font-family: 'Strait', sans-serif;
 font-family: 'Noto Serif', serif;
 font-family: 'Patrick Hand', cursive; */
 * {
-    /* outline:solid red 1px; */
+    outline:solid red 1px;
 
 }
 header {
     width:960px;
     margin:auto;
-    height:120px;
+    height:100px;
     padding:20px 0;
     box-sizing:border-box;
-    background-color:lightblue;
+    /* background-color:lightblue; */
 }
 #logo{
     width:270px;
@@ -22,6 +22,7 @@ header {
 }
 #logo img {
     float: left;
+    margin-right: 5px;
 }
 #logo h1{
     float: left;
@@ -31,8 +32,10 @@ header {
 
 #logo h4{
     float: left;
+    margin-left: 3px;
     font-family: 'Strait', sans-serif;
     font-size:10px;
+    color:rgb(112, 111, 111);
 }
 
 #right-icons{
@@ -53,13 +56,62 @@ div img{
 .middle{
     float:left;
 }
-div .hashed-line{
-    height:20px;
+.hashed-line{
+    float:left;
+    height:12px;
     width:960px;
-    background: blue;
-    /* background:repeating-linear-gradient(
+    margin:auto;
+    margin-top:20px;
+    box-sizing:border-box;
+    background:repeating-linear-gradient(
         45deg,
         white,
-        white 1px,
-        black 1 px) */
+        white 2px,
+        rgb(112, 111, 111) 2px,
+        white 4px
+    );
+}
+main {
+    width: 960px;
+    margin:auto;
+    margin-top: 25px;
+    box-sizing:border-box;
+}
+#chocolate-title{
+    width:350px;
+}
+main #chocolate-title h1{
+    float:left;
+    font:43px bold;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+}
+main #chocolate-title h4 {
+    float:left;
+    font-family: 'Strait', sans-serif;
+    font-size: 14px;
+    color:rgb(112, 111, 111);
+}
+#print{
+    float:right;
+    font-family: 'Strait', sans-serif;
+    font-size: 14px;
+    width:49px;
+    color: rgb(112, 111, 111);
+}
+#print img{
+    float:left;
+    margin-right:3px;
+}
+
+#pizza{
+    margin-top: 13px;
+    width:960px;
+}
+
+#text p {
+    float:left;
+    margin-top: 20px;
+    font-family: 'Noto Serif', serif;
+    font-size:17.5px;
 }
