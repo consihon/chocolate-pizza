@@ -5,7 +5,7 @@ font-family: 'Strait', sans-serif;
 font-family: 'Noto Serif', serif;
 font-family: 'Patrick Hand', cursive; */
 * {
-    outline:solid red 1px;
+    /* outline:solid red 1px; */
 
 }
 header {
@@ -114,4 +114,33 @@ main #chocolate-title h4 {
     margin-top: 20px;
     font-family: 'Noto Serif', serif;
     font-size:17.5px;
+}
+
+#recipe {
+    float:left;
+    margin-top:30px;
+    width:960px;
+    background-image: url("img/list-pg.png");
+}
+#recipe img{
+    width:960px;
+}
+#recipe #list{
+    width:700px;
+}
+#recipe #list ul{
+    position: absolute;
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+}
+#recipe #list li{
+    margin:10px 30px; 
+    font-size: 26px;
+    margin-right: 20px;
+}
+footer{
+    width:960px;
+    margin:auto;
+
 }
