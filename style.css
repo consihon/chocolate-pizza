@@ -53,3 +53,13 @@ div img{
 .middle{
     float:left;
 }
+div .hashed-line{
+    height:20px;
+    width:960px;
+    background: blue;
+    /* background:repeating-linear-gradient(
+        45deg,
+        white,
+        white 1px,
+        black 1 px) */
+}
